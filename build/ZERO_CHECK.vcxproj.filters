@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\OpenvinoPro\v5_async\build\CMakeFiles\58e642273c1833714b5edd2366bb8df6\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{95EB2031-A0C7-322E-B70B-3EF333315348}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

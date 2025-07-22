@@ -241,6 +241,7 @@ void YOLOV5::preprocess_img(Mat& frame) {
     resize.dh = new_shape.height - new_unpadH;
     cv::Scalar color = cv::Scalar(100, 100, 100);
     cv::copyMakeBorder(resize.resized_image, resize.resized_image, 0, resize.dh, 0, resize.dw, cv::BORDER_CONSTANT, color);
+    cv::cvtColor(resize.resized_image, resize.resized_image, cv::COLOR_BGR2RGB);
 
     this->rx = (float)frame.cols / (float)(resize.resized_image.cols - resize.dw);
     this->ry = (float)frame.rows / (float)(resize.resized_image.rows - resize.dh);

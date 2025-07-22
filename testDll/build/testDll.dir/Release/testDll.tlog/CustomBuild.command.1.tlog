@@ -1,0 +1,10 @@
+^D:\OPENVINOPRO\V5_ASYNC\TESTDLL\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/OpenvinoPro/v5_async/testDll -BD:/OpenvinoPro/v5_async/testDll/build --check-stamp-file D:/OpenvinoPro/v5_async/testDll/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

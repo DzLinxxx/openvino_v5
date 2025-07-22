@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # ==============================
 # 设置 OpenCV 和 OpenVINO 路径
 # ==============================
-set(OpenCV_DIR "D:/lib/OpenCV/OpenCV4.8.0_CUDA")
+set(OpenCV_DIR "D:/lib/OpenCV/OpenCV4.8.0_CUDA/x64/vc17/lib")
 set(OpenVINO_DIR "D:/lib/openvino_toolkit")
 
 # ==============================
